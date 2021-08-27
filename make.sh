@@ -212,7 +212,7 @@ fi
 date=`date +%Y%m%d`
 outputname="-$outputtype-$sourcever-$date-p2109GSI"
 outputimagename="$outputname".img
-outputtextname="$outputname".txt
+outputtextname="$outputname-p2109GSI".txt
 if [ "$4" == "" ]; then
     echo "Create out dir"
     outdirname="out"
